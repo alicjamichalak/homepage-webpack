@@ -1,0 +1,25 @@
+
+.about {
+    border: 1px #92140c solid;
+    margin-bottom: 16px;
+    padding: 16px;
+
+    &__heading {
+        color: #1460aa;
+        &::before {
+            content: '';
+            background: #92140c;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 16px;
+        }
+    }
+    &__picture {
+        display: block;
+        max-width: 100%;
+    }
+    &__link{
+        color: #92140c;
+    }
+}

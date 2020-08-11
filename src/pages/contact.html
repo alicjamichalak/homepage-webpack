@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <button class="hamburger hamburger--js" aria-label="Otwórz menu">🍔</button>
+    <nav class="navigation navigation--js">
+        <a class="navigation__link" href="../pages/index.html">Strona główna</a>
+        <a class="navigation__link" href="../pages/wtf-course.html">Kurs WTF</a>
+        <a class="navigation__link navigation__link--active" href="../pages/contact.html">Kontakt</a>
+    </nav>
+</header>
+    <main class="main">
+      <header class="main__header" id="top">
+        <h1 class="main__heading main__heading--js" id="name">
+          Formularz kontaktowy
+        </h1>
+      </header>
+      <form method="POST" action="http://dev.cotenfrontend.pl">
+        <div class="form">
+          <fieldset class="form__fieldset">
+            <legend>Dane kontaktowe</legend>
+            <p>
+              <label for="firstName">Imię:</label>
+              <input
+                required
+                class="form__item"
+                type="text"
+                id="firstName"
+                placeholder="Wpisz swoje imię"
+                name="firstName"
+              />
+            </p>
+            <p>
+              <label for="lasttName">Nazwisko:</label>
+              <input
+                required
+                class="form__item"
+                type="text"
+                id="lastName"
+                placeholder="Wpisz swoje nazwisko"
+                name="lastName"
+              />
+            </p>
+            <p>
+              <label for="email">E-mail:</label>
+              <input
+                required
+                class="form__item"
+                type="email"
+                id="email"
+                placeholder="Wpisz swój adres e-mail"
+                name="email"
+              />
+            </p>
+            <p>
+              <label for="phoneNumber">Numer telefonu:</label>
+              <input
+                class="form__item"
+                type="tel"
+                id="phoneNumber"
+                placeholder="Wpisz swój numer telefonu"
+                name="phoneNumber"
+              />
+            </p>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend>Adres</legend>
+            <p>
+              <label for="streetName">Ulica:</label>
+              <input
+                class="form__item"
+                type="text"
+                id="streetName"
+                name="streetName"
+                placeholder="Wpisz swoją ulicę"
+              />
+            </p>
+            <p>
+              <label for="city">Miasto:</label>
+              <input
+                required
+                class="form__item"
+                type="text"
+                id="city"
+                placeholder="Wpisz swoje miasto"
+                name="city"
+              />
+            </p>
+            <p>
+              <label for="postcode">Kod pocztowy:</label>
+              <input
+                required
+                pattern="[0-9]{2}\-[0-9]{3}"
+                class="form__item"
+                type="text"
+                id="postcode"
+                placeholder="21-040"
+                name="postcode"
+              />
+            </p>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend>Płeć i wiek</legend>
+            <fieldset>
+              <legend>Płeć</legend>
+              <p>
+                <label for="sex">Kobieta</label>
+                <input type="radio" id="sex" name="sex" value="woman" />
+              </p>
+              <p>
+                <label for="sex">Mężczyzna</label>
+                <input type="radio" id="sex" name="sex" value="man" />
+              </p>
+            </fieldset>
+            <br />
+            <fieldset>
+              <legend>Wiek</legend>
+              <p>
+                <label for="age">Wybierz swój przedział wiekowy:</label>
+                <select id="age">
+                  <option value="kid">poniżej 15 lat</option>
+                  <option value="young">16 - 18 lat</option>
+                  <option value="adult">19 - 50 lat</option>
+                  <option value="old">powyżej 50 lat</option>
+                </select>
+              </p>
+            </fieldset>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend>Cechy charakteru</legend>
+            <p>
+              <label
+                >Introwertyk
+                <input
+                  type="checkbox"
+                  id="character"
+                  name="character"
+                  value="introvert"
+              /></label>
+            </p>
+            <p>
+              <label
+                >Ekstrawertyk
+                <input
+                  type="checkbox"
+                  id="character"
+                  name="character"
+                  value="extrovert"
+              /></label>
+            </p>
+            <p>
+              <label
+                >Miły
+                <input
+                  type="checkbox"
+                  id="character"
+                  name="character"
+                  value="polite"
+              /></label>
+            </p>
+            <p>
+              <label
+                >Niemiły
+                <input
+                  type="checkbox"
+                  id="character"
+                  name="character"
+                  value="unpolite"
+              /></label>
+            </p>
+            <p>
+              <label
+                >Pracowity
+                <input
+                  type="checkbox"
+                  id="character"
+                  name="character"
+                  value="hardWorking"
+              /></label>
+            </p>
+            <p>
+              <label
+                >Leniwy
+                <input
+                  type="checkbox"
+                  id="character"
+                  name="character"
+                  value="lazy"
+              /></label>
+            </p>
+            <br />
+            <p>
+              <label
+                >Jak zmęczony teraz jesteś?
+                <input type="range" id="range" name="range" min="0" max="10"
+              /></label>
+            </p>
+          </fieldset>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Wyślij" />
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      Strona domowa Alicji Michalak, wszystkie treści są efektem udziału w
+      szkoleniu WTF: Co ten frontend.
+      <a class="footer__link" href="#top">Wróć na górę strony</a>
+            </footer>
+            <!-- <script src="main.js"></script> -->
+</body>
+
+</html>

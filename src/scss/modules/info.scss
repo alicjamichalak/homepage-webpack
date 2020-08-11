@@ -1,0 +1,32 @@
+
+.information{
+    border: 1px #92140c solid;
+    &__heading {
+        color: #1460aa;
+        padding: 16px;
+    }
+}
+
+.info{
+    padding: 16px;
+    border: 1px #92140c solid;
+
+    &__title{
+        color: #21a179;
+        &::before {
+            content: '';
+            background: #21a179;
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 12px;
+            border-radius: 50%;
+        }
+    }
+    &__description{
+        color: #92140c;
+    }
+    &__--special{
+        border: 1px #92140c solid;                  
+    }
+}

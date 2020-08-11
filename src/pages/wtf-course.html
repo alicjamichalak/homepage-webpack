@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="node_modules/normalize.css/normalize.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <button class="hamburger hamburger--js" aria-label="Otwórz menu">
+        🍔
+      </button>
+      <nav class="navigation navigation--js">
+        <a class="navigation__link" href="../pages/index.html">Strona główna</a>
+        <a
+          class="navigation__link navigation__link--active"
+          href="../pages/wtf-course.html"
+          >Kurs WTF</a
+        >
+        <a class="navigation__link" href="../pages/contact.html">Kontakt</a>
+      </nav>
+    </header>
+    <main class="main">
+      <header id="top" class="main__header">
+        <h1 class="main__heading">Kurs WTF - co ten frontend</h1>
+        <img class="main__picture" src="../assets/img/zdj1.png" alt="WTF - co ten frontend" />
+      </header>
+      <section id="notes">
+        <h2 class="notes__heading">Notatki z WTF: Co ten frontend</h2>
+        <div class="grid">
+          <article class="notes__article">
+            <h3 class="notes__article__heading">Warstwy strony internetowej</h3>
+            <p class="notes__article__description">
+              Warstwa 0 : TREŚĆ <br />
+              Warstwa 1 : HTML <br />
+              Warstwa 2 : CSS <br />
+              Warstwa 3 : JAVASCRIPT <br />
+              Warstwy o wyzszych numerach mogą wpływać na warstwy o nizszych
+              numerach, np. HTML wpływa na treść.
+            </p>
+          </article>
+          <article class="notes__article">
+            <h3 class="notes__article__heading">DevTools</h3>
+            <p class="notes__article__description">
+              Dev Tools słuzy do badania elementow na stronie. Dzięki nim mozna
+              sprawdzić kot HTML strony oraz jej style. Mozna je uruchomić na
+              rózne sposoby, takie jak:<br />
+              -za pomocą zaznaczenia elementu na stronie, kliknięciu prawym
+              przyciskiem myszki i wybrania opcji INSPECT<br />
+              -poprzez skrót klawiszowy F12(dla systemów Linux i Windows) lub
+              skrót command+shift+C(na MacOS)
+            </p>
+          </article>
+          <article class="notes__article">
+            <h3 class="notes__article__heading">VS Code Shortcuts</h3>
+            <p class="notes__article__description">
+             
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      Strona domowa Alicji Michalak, wszystkie treści są efektem udziału w
+      szkoleniu WTF: Co ten frontend.
+      <a class="footer__link" href="#top">Wróć na górę strony</a>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

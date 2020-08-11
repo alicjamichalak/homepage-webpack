@@ -1,0 +1,38 @@
+$laptop: 768px;
+.navigation {
+    padding: 16px;
+    display: none;
+
+    &__link{
+        color: #92140c;
+        display: block;
+        margin: 0 0 16px;
+        &--active{
+            color: #000;
+        }
+    }
+    &--open{
+        display: block;
+    }
+    @media (min-width: $laptop){
+        padding: 16px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+    }
+}
+
+.hamburger {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    background: none;
+
+    @media (min-width: $laptop) {
+        display: none;
+    }
+}
+

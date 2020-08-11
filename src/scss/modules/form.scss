@@ -1,0 +1,13 @@
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &__item{
+        display: block;
+    }
+}
+
+.submit {
+    display: grid;
+    justify-items: center;
+}

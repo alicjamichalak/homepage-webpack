@@ -1,0 +1,18 @@
+$laptop: 768px;
+.main {
+    max-width: 1000px;
+    margin: 60px auto 0;
+
+    &__heading {
+        color: #92140c;
+    }
+
+    &__picture {
+        display: block;
+        max-width: 100%;
+    }
+
+    @media (min-width: $laptop){
+        margin: 100px auto 0;
+    }
+}

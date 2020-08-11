@@ -1,13 +1,59 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/info.scss" ;
+@import "modules/navigation.scss";
+@import "modules/about.scss";
+@import "modules/main.scss"; 
+@import "modules/header.scss";
+@import "modules/form.scss";
+@import "modules/notes.scss";
+
+$laptop: 768px;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%, rgba(159, 227, 255, 1) 0%, rgba(255, 177, 219, 1) 100.2%);
+}
+
+section {
+    background: #fff;
+}
+
+fieldset {
+    background: #fff;
+    border: 1px #92140c solid;
+}
+
+legend {
+    font-weight: bold;
+    color: #92140c;
+}
+
+a {
+    color: #02e4d5;
+}
+
+.footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    &__link{
+        color: #1460aa;
+    }
+}
+
+.grid {
+    @media (min-width: $laptop){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
