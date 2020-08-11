@@ -1,1 +1,1 @@
-console.log('hello another');
+console.log("WYWOŁANIE SCRIPTEM Z package.json");

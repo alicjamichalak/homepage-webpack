@@ -9,8 +9,6 @@
 @import "modules/form.scss";
 @import "modules/notes.scss";
 
-$laptop: 768px;
-
 html {
     box-sizing: border-box;
 }
@@ -31,12 +29,12 @@ section {
 
 fieldset {
     background: #fff;
-    border: 1px #92140c solid;
+    border: 1px $myRed solid;
 }
 
 legend {
     font-weight: bold;
-    color: #92140c;
+    color: $myRed;
 }
 
 a {
@@ -47,7 +45,7 @@ a {
     max-width: 1000px;
     margin: 0 auto;
     &__link{
-        color: #1460aa;
+        color: $myBlue;
     }
 }
 

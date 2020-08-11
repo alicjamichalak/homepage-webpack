@@ -1,9 +1,25 @@
 import '../scss/main.scss';
+import moment from 'moment';
 
-// uncomment the lines below to enable PWA
-// import {registerSW} from './pwa.js';
-// registerSW();
+const firstName = 'Alicja';
+let age = 23;
 
-/* place your code below */
+console.log(
+    `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age} lata.`
+);
+const helloFunction = function(firstName, age) {
+    console.log(
+        `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age} lata.`
+    );
+};
+helloFunction(firstName, age);
 
-console.log('HELLO 🚀')
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click', () => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+});
+
+let momentVariable = moment().startOf('day').fromNow();
+console.log(`Północ była: ${momentVariable}`);

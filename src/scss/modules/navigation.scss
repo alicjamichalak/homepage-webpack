@@ -1,10 +1,11 @@
-$laptop: 768px;
+@import "../variables";
+
 .navigation {
     padding: 16px;
     display: none;
 
     &__link{
-        color: #92140c;
+        color: $myRed;
         display: block;
         margin: 0 0 16px;
         &--active{

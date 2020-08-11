@@ -1,9 +1,17 @@
 
+@import "../variables";
+
 .form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    &__item{
+    display: block;
+    &__fieldset{
+        max-width: 100%;
+    }
+    @media (min-width: $laptop){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        &__item{
         display: block;
+        }
     }
 }
 

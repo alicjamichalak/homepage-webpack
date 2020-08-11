@@ -1,12 +1,14 @@
+@import "../variables";
+
 .notes {
-  border: 1px #92140c solid;
+  border: 1px $myRed solid;
   &__heading {
     color: #1460aa;
     padding: 16px;
   }
   &__article {
     padding: 16px;
-    border: 1px #92140c solid;
+    border: 1px $myRed solid;
     &__heading {
       color: #21a179;
       &::before {
@@ -20,7 +22,7 @@
       }
     }
     &__description {
-        color: #92140c;
+        color: $myRed;
       }
   }
 }

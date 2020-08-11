@@ -1,14 +1,15 @@
 
+@import "../variables";
 .about {
-    border: 1px #92140c solid;
+    border: 1px $myRed solid;
     margin-bottom: 16px;
     padding: 16px;
 
     &__heading {
-        color: #1460aa;
+        color: $myBlue;
         &::before {
             content: '';
-            background: #92140c;
+            background: $myRed;
             display: inline-block;
             width: 16px;
             height: 16px;
@@ -20,6 +21,6 @@
         max-width: 100%;
     }
     &__link{
-        color: #92140c;
+        color: $myRed;
     }
 }

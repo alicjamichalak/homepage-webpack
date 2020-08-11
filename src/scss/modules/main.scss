@@ -1,10 +1,10 @@
-$laptop: 768px;
+@import "../variables";
 .main {
     max-width: 1000px;
     margin: 60px auto 0;
 
     &__heading {
-        color: #92140c;
+        color: $myRed;
     }
 
     &__picture {
