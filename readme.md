@@ -1,18 +1,21 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://avatars1.githubusercontent.com/u/58181279?s=400&u=dc4fe3e3196c042a75c39c896f1dd5421cb99811&v=4)
 
-# WTF Webpack Starter Kit 
+# Alicja Michalak's homepage 
 
-Simple toolkit for your static websites development.
+Created for WTF- co ten frontend course
 
-## How to use it?
+## On this page you can see some info about me and my journey with front-end
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+###Subpages:
 
-## Available scripts
+-wtf-course -> you can see some of my notes from the course
+-contact -> you can see my form playground
 
-`npm run start` - runs development mode
+## To run my project you can use this commends:
 
-`npm run build` - runs build process for production
+-`npm run start` - runs development mode
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+-`npm run build` - runs build process for production
+
+-`npm run publish` - runs build process and publish the page using `gh-pages` branch
 
