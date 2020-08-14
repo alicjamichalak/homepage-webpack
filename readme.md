@@ -11,14 +11,14 @@ Created for WTF- co ten frontend course
 
 ### Subpages:
 
--wtf-course -> you can see some of my notes from the course
--contact -> you can see my form playground
+- wtf-course -> you can see some of my notes from the course
+- contact -> you can see my form playground
 
 ### To run my project you can use this commands:
 
--`npm run start` - runs development mode
+- `npm run start` - runs development mode
 
--`npm run build` - runs build process for production
+- `npm run build` - runs build process for production
 
--`npm run publish` - runs build process and publish the page using `gh-pages` branch
+- `npm run publish` - runs build process and publish the page using `gh-pages` branch
 
