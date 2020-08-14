@@ -4,6 +4,9 @@
 
 Created for WTF- co ten frontend course
 
+## You can also see my business card
+[business card](https://alicjamichalak.github.io/business-card/)
+
 ## On this page you can see some info about me and my journey with front-end
 
 ### Subpages:
@@ -11,7 +14,7 @@ Created for WTF- co ten frontend course
 -wtf-course -> you can see some of my notes from the course
 -contact -> you can see my form playground
 
-## To run my project you can use this commends:
+### To run my project you can use this commands:
 
 -`npm run start` - runs development mode
 
