@@ -2,16 +2,18 @@
 
 # Alicja Michalak's homepage 
 
-Created for WTF- co ten frontend course
+Created for WTF- co ten frontend course.
+On this page you can see some info about me and my journey with front-end
 
 ## You can also see my business card
+
 [business card](https://alicjamichalak.github.io/business-card/)
 
-## On this page you can see some info about me and my journey with front-end
-
+## About this project: 
 ### Subpages:
 
 - wtf-course -> you can see some of my notes from the course
+
 - contact -> you can see my form playground
 
 ### To run my project you can use this commands:
