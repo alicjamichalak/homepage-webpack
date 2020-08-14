@@ -6,7 +6,7 @@ Created for WTF- co ten frontend course
 
 ## On this page you can see some info about me and my journey with front-end
 
-###Subpages:
+### Subpages:
 
 -wtf-course -> you can see some of my notes from the course
 -contact -> you can see my form playground
