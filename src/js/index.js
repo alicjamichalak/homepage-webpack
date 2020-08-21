@@ -7,7 +7,7 @@ let age = 23;
 console.log(
     `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age} lata.`
 );
-const helloFunction = function(firstName, age) {
+const helloFunction = function (firstName, age) {
     console.log(
         `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age} lata.`
     );
